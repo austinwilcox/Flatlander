@@ -11,7 +11,7 @@ I have a series of directories that I need to move the contents of the directori
 Examples:
 
 ```
-deno run index.ts -t /home/user/test
+deno run --allow-read --allow-write index.ts -t /home/user/test
 ```
 
 This wil move all files from the cwd/pwd to /home/user/test
