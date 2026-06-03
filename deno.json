@@ -1,0 +1,7 @@
+{
+  "name": "flatlander",
+  "version": "0.1.0",
+  "tasks": {
+    "flatten": "deno run --allow-read --allow-write index.ts"
+  }
+}
